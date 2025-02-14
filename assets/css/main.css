@@ -1,0 +1,63 @@
+:root {
+    --black: #1b2423;
+    --pink: #fac7e2
+}
+
+body {
+    background-image: url("img/background.png");
+}
+
+img:hover {
+    animation: wiggle 700ms ease-in-out 1;
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(10deg); }
+    25% { transform: rotate(-10deg); }
+    50% { transform: rotate(20deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+
+
+
+/* Small devices (portrait tablets and large phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    #homepage-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .homepage-image-link {
+        width: 60vw;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #homepage-container {
+        display: grid;
+        grid-template-columns: repeat(20, 5% [col-start]);
+        grid-template-rows: repeat(20, 5vh [col-start]);
+    }
+    .homepage-image-link {
+        width: 20vw;
+    }
+
+    #walk-reviews-link {
+        grid-column: 2 / span 4;
+        grid-row: 2 / span 3;
+    }
+
+    #gripe-of-the-week-link {
+        grid-column: 10 / span 4;
+        grid-row: 10 / span 4;
+    }
+}
+
+
+
+
