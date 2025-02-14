@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("img/background.png");
+    background-image: url("{{ "/images/background.png" | relative_url }}");
 }
 
 img:hover {
