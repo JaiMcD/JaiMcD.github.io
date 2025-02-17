@@ -41,7 +41,7 @@ img:hover {
     flex-direction: row-reverse;
     background-color: var(--pink);
     border: solid 2px var(--black);
-    height: 2.5rem; /* Changed from vw for better scaling */
+    height: 14vw; /* Changed from vw for better scaling */
     padding: 0.5%;
 }
 
@@ -94,6 +94,10 @@ img:hover {
 
     .wavy-box {
         aspect-ratio: 2;
+    }
+
+    .header-container {
+        height: 5vh;
     }
 }
 
