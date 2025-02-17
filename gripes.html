@@ -7,6 +7,13 @@ title: Gripes
 
 <div style="display: flex; justify-content: center;">
 <div class="wavy-box">
-    ss
+    <button>Past</button>
+    <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
 </div>
 </div>
