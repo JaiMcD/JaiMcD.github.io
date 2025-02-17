@@ -56,7 +56,7 @@ img:hover {
     --h: 90vh;
     width: calc(4*4*var(--s));
     height: calc(var(--h)*4*var(--s));
-    aspect-ratio: 1;
+    aspect-ratio: 0.5;
     object-fit: cover;
     padding: var(--s);
     border: var(--s) solid #0000;
@@ -90,6 +90,10 @@ img:hover {
     #gripe-of-the-week-link {
         grid-column: 10 / span 4;
         grid-row: 12 / span 4;
+    }
+
+    .wavy-box {
+        aspect-ratio: 2;
     }
 }
 
