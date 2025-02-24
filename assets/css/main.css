@@ -1,6 +1,8 @@
 :root {
     --black: #1b2423;
-    --pink: #fac7e2
+    --pink: #fac7e2;
+    font-family: "Roboto", serif;
+    font-style: normal;
 }
 
 body {
