@@ -1,5 +1,6 @@
 ---
 title:  "Welcome to Jekyll!"
+image: "images/gripes/maraschino_cherry.png"
 ---
 
 # Welcome
