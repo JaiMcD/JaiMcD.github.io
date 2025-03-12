@@ -1,3 +1,20 @@
-body {
-    color: pink;
+
+/* Default styles (small screens) */
+#map-border {
+    background-color: pink;
+    width: 35vw;
+    height: 50%;
 }
+
+/* Large screens (override small-screen styles) */
+@media (min-width: 768px) {
+
+#map-border {
+    height: 90%;
+}
+
+}
+
+
+
+
